@@ -28,7 +28,7 @@ export default function App({ login }) {
 function Header(props) {
   return (
     <div>
-      <h1> React Tutorial</h1>
+      <h1> React </h1>
       <ul>
         {props.days.map((day) => (
           <li> {day} </li>
