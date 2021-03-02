@@ -2,3 +2,26 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.todo-list {
+  box-shadow:
+  /* The top layer shadow */ 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.todo-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #7e1414;
+}
+
+.todo-style {
+  color: red;
+  font-size: 30;
+}

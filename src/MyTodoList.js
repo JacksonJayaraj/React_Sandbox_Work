@@ -1,16 +1,16 @@
 import React from "react";
+import "./styles.css";
+import TodoItem from "./TodoItem";
+
+//const styles = { color: "red", fontSize: 30 };
 
 export default function MyTodoList() {
   return (
-    <div>
-      <input type="checkbox" />
-      <p> I have a bike </p>
-
-      <input type="checkbox" />
-      <p> Submit Tax Return </p>
-
-      <input type="checkbox" />
-      <p> Bring COffee </p>
+    <div className="todo-list">
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   );
 }
