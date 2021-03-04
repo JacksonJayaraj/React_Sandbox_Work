@@ -1,5 +1,16 @@
 import { useEffect, useState } from "react";
 import "./styles.css";
+import ContactCard from "./ContactCard";
+
+function App() {
+  return <ContactCard />;
+}
+
+export default App;
+
+/*
+
+Api 
 
 export default function App({ login }) {
   const [data, setData] = useState(null);
@@ -14,28 +25,6 @@ export default function App({ login }) {
     return <div> {JSON.stringify(data)} </div>;
   }
   return <div>No Data</div>;
-
-  /*
-   return (
-    <div>
-      <Header days={days} />
-      <Section login={login} />
-    </div>
-  );
-  */
 }
 
-function Header(props) {
-  return (
-    <div>
-      <h1> React </h1>
-      <ul>
-        {props.days.map((day) => (
-          <li> {day} </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-const days = ["Monday", "Tuesday"];
+*/

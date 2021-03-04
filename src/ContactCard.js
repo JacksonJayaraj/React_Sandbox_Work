@@ -1,4 +1,5 @@
 import React from "react";
+//import Jlogo from "./Jlogo.jpg";
 
 function ContactCard() {
   return (
@@ -12,3 +13,5 @@ function ContactCard() {
 }
 
 export default ContactCard;
+
+//<img src="http://placekitten.com/300/200" />
