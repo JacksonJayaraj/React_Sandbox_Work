@@ -3,8 +3,11 @@ import ReactDOM from "react-dom";
 
 import App from "./App";
 import MyTodoList from "./MyTodoList";
+import ContactCard from "./ContactCard";
 
-const rootElement = document.getElementById("root");
+//const rootElement = document.getElementById("root");
 //ReactDOM.render(<App login="jacksonjayaraj" />, rootElement);
 
-ReactDOM.render(<MyTodoList />, rootElement);
+//ReactDOM.render(<MyTodoList />, rootElement);
+
+ReactDOM.render(<ContactCard />, document.getElementById("root"));
