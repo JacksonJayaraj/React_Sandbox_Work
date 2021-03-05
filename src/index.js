@@ -2,6 +2,7 @@
 import ReactDOM from "react-dom";
 
 import App from "./App";
+import AppJoke from "./AppJoke";
 //import MyTodoList from "./MyTodoList";
 //import ContactCard from "./ContactCard";
 
@@ -10,4 +11,6 @@ import App from "./App";
 
 //ReactDOM.render(<MyTodoList />, rootElement);
 
-ReactDOM.render(<App />, document.getElementById("root"));
+//ReactDOM.render(<App />, document.getElementById("root"));
+
+ReactDOM.render(<AppJoke />, document.getElementById("root"));
