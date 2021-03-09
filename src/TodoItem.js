@@ -6,7 +6,6 @@ function TodoItem(props) {
       <input type="checkbox" />
 
       <p> {props.todo.text}</p>
-      <p> {props.todo.completed} </p>
     </div>
   );
 }
